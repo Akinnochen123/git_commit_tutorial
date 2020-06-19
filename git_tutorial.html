@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git commit tutorial</title>
+</head>
+<body>
+    <header><h1>A BRIEF TUTORIAL ON HOW TO USE GIT COMMIT</h1>
+        <h3>We will be seeing how to use the git command "git commit" in simple steps in this tutorial</h3>
+    </header>
+    <main><h3>The following are sequencial steps to follow to use git commit</h3></main>
+    <section>
+        <article>
+            <ul>
+                <li><h4>STEP 1: Install git and create a GitHub account</h4>
+                    <p>Follow the instructions <a href="https://github.com">here</a> to install git (if not already installed)</p>
+                    <p>Once you've done that, create a GitHub account <a href="https://github.com/createaccount">here</a></p>
+                </li>
+
+                <li><h4>STEP 2: Create a local git repository</h4>
+                    <p>To use git we'll be using the terminal also known as command prompt, but here we will be using our newly installed git bash</p>
+                    <p>Open up git bash and move to where you want to place the project on your local machine using the "cd" (change directory) command e.g cd Desktop to place your project on your desktop.</p>
+                    <p>After you cd into your preferred location, create a new folder by using the "mkdir" (make directory) command e.g mkdir project_folder</p>
+                     <p>After creating the folder, initialize a git repository in the root of the folder by using the "git init" command</p>
+                     
+
+                </li>
+
+                <li><h4>STEP 3: Add a new file to the repository</h4>
+                    <p>Go ahead and add a new file using the "touch" command e.g touch new_file</p>
+                    <p>After creating the file you can use the "git status" command to see which file git knows exist</p>
+
+                </li>
+
+                <li><h4>STEP 4: Add a file to the staging area</h4>
+                    <p>Add your file to the staging area by using the "git add" command</p>
+                    <p> Rerun the "git status" command and you'll see that git has added the file to the staging area (notice the 'changes to be committed'line)</p>
+                    <p>To reiterate, the file has not yet been added to a commit, but it's about to be</p>
+                </li>
+
+                <li><h4>STEP 5: Create a commit</h4>
+                    <p>It's time to create your first commit!</p>
+                    <p>Run the command "git commit -m" 'your message about the commit' e.g git commit-m "first commit"</p>
+                    <p>You might be wondering what the -m is for, the -m is a flag, I'll discuss more on this in the latter part of the tutorial </p>
+                    <p>Run the command "git log" to see your commited changes</p>
+                    <p>Yaay! you've just done your first commit</p>
+                    <p>Practice this steps more times to become a pro</p>
+
+                </li>
+
+            </ul>
+        </article>
+    </section>
+    
+    <section>
+        <article>
+            <h4>Flags that are commonly used with git commit </h4>
+            <p> -a flag: it is used to add all your files to your commit </p>
+            <p> -m flag: it is used to connect a commit message to your commit</p>
+            <p> -am flag: it is a combination of the a and m flags and it is used to add and create a message for the commit in one command</p>
+        </article>
+    </section>
+
+    <section>
+        <h4>Below is a terminal image that shows how to use git commit</h4>
+        <img src="git commit tutorial.jpg" alt="git commit tutorial" width="1000" height="500">
+        
+    </section>
+</body>
+</html>
